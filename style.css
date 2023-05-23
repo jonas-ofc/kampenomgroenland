@@ -1,0 +1,172 @@
+* {
+
+    max-width: 100%;
+    /*  width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    all: unset;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+p,
+a,
+li {
+    font-family: nobel, sans-serif;
+    line-height: 180%;
+    font-weight: 100;
+
+    font-style: normal;
+}
+
+h4 {
+    color: white;
+    font-size: 1.45rem;
+    font-family: nobel, sans-serif;
+    line-height: 180%;
+    font-weight: 300;
+
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 180%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 180%;
+
+}
+
+h3 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 180%;
+}
+
+
+main {}
+
+/* Styling af navigation */
+
+header {
+    width: 100%;
+    position: absolute;
+    /* background-color: white; */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap(3);
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vw;
+    /*  padding-top: 4vw; */
+}
+
+nav img {
+    width: 16vw;
+    height: 7vw;
+}
+
+.nav-wrapper:first-of-type {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap(2);
+    /*  display: inline-block; */
+}
+
+.nav-wrapper:nth-of-type(2) {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap(2);
+    /*  display: inline-block; */
+}
+
+.nav-wrapper a {
+    width: 1.5vw;
+}
+
+.nav-wrapper a img {
+    height: 1.5vw;
+
+
+}
+
+/* .nav-wrapper a:nth-of-type(2) img {
+    height: 2vw;
+} */
+
+.sub-nav-wrapper ul {
+    display: none;
+    list-style: none;
+    list-style-type: none;
+    background-color: hsl(205, 15%, 91%);
+
+    padding: 1vw;
+
+}
+
+.sub-nav-wrapper ul li {
+    padding-top: 0.5vw;
+}
+
+.sub-nav-wrapper ul li a {
+    all: unset;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+
+.sub-nav-wrapper:hover ul {
+    display: inline-block;
+    position: absolute;
+}
+
+.sub-nav-wrapper p {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+/* styling af forsiden */
+
+#forside-body {
+    height: 100%;
+    background-image: url("images/kampen-om-groenland-background.jpg");
+    background-position: 5% 24%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* generel styling af undersider */
+
+/* .headliner-section {
+    height: 35vw;
+} */

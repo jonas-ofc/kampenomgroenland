@@ -1,0 +1,152 @@
+.headliner-section {
+    width: 100%;
+    display: block;
+
+    grid-template-columns: 1fr;
+    height: 33vw;
+    background-image: url("/images/billedbank/02_Josef+og+Panninguaq_02.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 20% 20%;
+
+}
+
+h3,
+p,
+h1,
+h4 {
+    color: black;
+}
+
+h2 {
+    font-size: 2rem;
+    color: black;
+}
+
+section:nth-of-type(odd) {
+    background-color: hsl(240, 10%, 92%);
+
+}
+
+section:nth-of-type(2) {
+
+    padding: 10vw;
+    padding-left: 20;
+    padding-right: 20;
+}
+
+.download-wrapper {
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+    padding-top: 8vw;
+}
+
+.button-wrapper button {
+    margin-top: 2vw;
+    width: 12vw;
+    text-decoration: none;
+    padding: 2vw;
+    border-radius: 0;
+    border-color: hsl(204, 79%, 38%);
+    color: hsl(204, 79%, 38%);
+}
+
+section:nth-of-type(4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5vw;
+    gap: 2vw;
+}
+
+
+section:nth-of-type(4) div:not(:first-of-type) {
+
+    height: 20vw;
+}
+
+section:nth-of-type(4) .text-wrapper {
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+
+}
+
+
+.img-wrapper:first-of-type {
+    background-image: url("/images/billedbank/00_Hovedbillede_KOG.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(2) {
+    background-image: url("/images/billedbank/0_Josef_0.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(3) {
+    background-image: url("/images/billedbank/01_Panninguaq01.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(4) {
+    background-image: url("/images/billedbank/03_Tillie_07+.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(5) {
+    background-image: url("/images/billedbank/04_Kaaleraq_naer.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(6) {
+    background-image: url("/images/billedbank/05_Miljø_01.jpg");
+    background-size: cover;
+    background-position: 20% 20%;
+}
+
+.img-wrapper:nth-of-type(7) {
+    background-image: url("/images/billedbank/05_Miljø_02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-wrapper:nth-of-type(8) {
+    background-image: url("/images/billedbank/05_Miljø_03.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-wrapper:nth-of-type(9) {
+    background-image: url("/images/billedbank/05_Miljø_04.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-wrapper:nth-of-type(10) {
+    background-image: url("/images/billedbank/05_Miljø_05.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-wrapper:nth-of-type(11) {
+    background-image: url("/images/billedbank/05_Miljø_06.jpg");
+    background-size: cover;
+    background-position: center;
+}

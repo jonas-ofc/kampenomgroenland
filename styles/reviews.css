@@ -1,0 +1,22 @@
+.headliner-section {
+    width: 100%;
+    display: block;
+
+    grid-template-columns: 1fr;
+    height: 33vw;
+    background-image: url("/images/billedbank/01_Panninquaq_03.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 20% 20%;
+    margin-bottom: 5vw;
+}
+
+.headliner-section h2 {
+    padding-top: 24vw;
+}
+
+section:not(:first-of-type) {
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+}

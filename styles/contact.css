@@ -1,0 +1,48 @@
+.headliner-section {
+    width: 100%;
+    display: block;
+
+    grid-template-columns: 1fr;
+    height: 55vw;
+    background-image: url("/images/billedbank/05_Miljø_04.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position: 20% 20%;
+    text-align: center;
+    padding-bottom: 5vw;
+
+}
+
+.headliner-section h2 {
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.headliner-section h2:first-of-type {
+    text-align: center;
+    padding-top: 20vw;
+}
+
+
+.headliner-section img {
+
+    padding-top: 5vw;
+}
+
+main img {
+    width: 5vw;
+    height: 5vw;
+}
+
+section:last-of-type {
+    text-align: center;
+    color: black;
+    padding-bottom: 10vw;
+}
+
+section:last-of-type h2 {
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    color: black;
+}

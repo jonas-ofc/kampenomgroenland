@@ -1,0 +1,113 @@
+main {
+    /*  display: grid;
+    grid-template-columns: 1fr 1fr;
+ */
+}
+
+.headliner-section {
+    /*  grid-column: 1/3;
+    grid-row: 1/2; */
+
+    height: 15vw;
+}
+
+#om {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6vw;
+    padding: 5vw;
+    align-items: center;
+}
+
+#kommentar {
+    margin: 5vw;
+    background-image: url("/images/billedbank/05_Miljø_06.jpg");
+    background-position: center;
+
+    background-size: cover;
+    padding: 6vw 13vw 6vw 13vw;
+}
+
+#kommentar .section-wrapper p {
+    text-align: center;
+    color: white;
+}
+
+#medvirkende {
+    background-color: hsl(240, 10%, 92%);
+    list-style-type: none;
+
+    padding: 5vw;
+    /* color: black; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+#medvirkende h2 {
+
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: left;
+}
+
+/* #medvirkende ul {
+    list-style-type: none;
+    grid-column: 2/3;
+    
+}
+ */
+.medvirkende-wrapper {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap(3);
+    gap: 2vw;
+}
+
+.medvirkende-info-wrapper {
+    grid-column: 2/3;
+    list-style-type: none;
+
+}
+
+.medvirkende-info-wrapper li {
+    margin-top: 1vw;
+}
+
+#crew {
+    list-style-type: none;
+
+    padding: 5vw;
+    /* color: black; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+#crew h2 {
+
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: left;
+}
+
+
+.crew-wrapper {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap(3);
+    gap: 2vw;
+}
+
+#crew ul {
+    grid-column: 2/3;
+    list-style-type: none;
+}
+
+#crew ul h3 {
+    margin-top: 1vw;
+}
